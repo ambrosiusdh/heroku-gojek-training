@@ -37,7 +37,7 @@ jobs:
         - run:
             name: Deploy Master to Heroku
             command: |
-              git push https://heroku:fdc863e6-0502-4946-bd46-2b6f722f7fd8@git.heroku.com/java-guestbook.git master
+              git push https://heroku:1f8ab8ba-dc08-4dc2-8be7-e60264caef67@git.heroku.com/heroku-gojek-training.git master
 workflows:
   version: 2
   build-deploy:
